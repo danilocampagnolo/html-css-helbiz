@@ -10,12 +10,26 @@ body {
   margin-top: 60px;
 }
 
+.padding_left_160 {
+  padding-left: 160px;
+}
+
+.padding_top_50 {
+  padding-top: 50px;
+}
+
 .back_grey {
   background-color: #FAFAFA;
 }
 
 .text_center {
   text-align: center;
+}
+.text_right {
+  text-align: right;
+}
+.text_left {
+  text-align: left;
 }
 
 .container_1000 {
@@ -145,6 +159,26 @@ img.img_bike {
   padding-left: 20px;
 }
   /* /bike */
+  /* iphone */
+.slider_top {
+    height: 500px;
+    background-image: url(../img/HelbizBanner.jpg);
+    background-size: cover;
+    background-position-x: -200px;
+  }
+.slider_bottom h2 {
+  font-size: 2.5em;
+}
+.slider_bottom p {
+  font-size: 1.5em;
+}
+.slider_bottom .img_iphone img {
+  width: 100%;
+  margin-top: -90%;
+}
+
+
+  /* /iphone */
 
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -202,4 +236,6 @@ img.img_bike {
     padding-left: 0px;
     padding-top: 30px;
   }
+
+
 }
