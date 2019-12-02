@@ -167,14 +167,18 @@ img.img_bike {
     background-position-x: -200px;
   }
 .slider_bottom h2 {
-  font-size: 2.5em;
+  font-size: 2.8em;
 }
 .slider_bottom p {
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
+.slider_bottom p:first-child {
+  padding-bottom: 15px;
+}
+
 .slider_bottom .img_iphone img {
   width: 100%;
-  margin-top: -90%;
+  margin-top: -350px;
 }
 
 
@@ -198,6 +202,12 @@ img.img_bike {
   .jumbo_text a img {
     width: 100%;
   }
+
+  .slider_bottom .img_iphone img {
+    width: 270px;
+    margin-top: -350px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -237,5 +247,9 @@ img.img_bike {
     padding-top: 30px;
   }
 
+  .slider_bottom .img_iphone img {
+    width: 270px;
+    margin-top: -350px;
+  }
 
 }
