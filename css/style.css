@@ -105,13 +105,13 @@ header {
 
   /* bike */
 img.img_name_bike {
-  width: 15em;
+  width: 17em;
   margin-top: 50px;
 }
 img.img_bike {
   width: 15em;
-  padding-bottom: 50px;
-  margin-top: 20px;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 #bike .col-lg-6 {
@@ -124,24 +124,28 @@ img.img_bike {
   margin-left: 15px;
 }
 #bike p{
-  font-size: 1.6em;
+  font-size: 2em;
   padding-top: 15px;
   padding-bottom: 10px;
 }
 #bike .button a {
-  font-size: 1.6em;
+  font-size: 1.9em;
   text-decoration: none;
   color: #0070C7;
+  line-height: 20px;
 }
 #bike .button a:hover {
   text-decoration: underline;
 }
 #bike .angle_right {
   margin-left: 5px;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #0070C7;
+  line-height: 20px;
 }
-
+#bike .angle_right i {
+  vertical-align: middle;
+}
   /* /bike */
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
