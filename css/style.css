@@ -188,5 +188,10 @@ img.img_bike {
   .jumbo_text a img {
     width: 100%;
   }
+  
+  .back_grey {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
 }
