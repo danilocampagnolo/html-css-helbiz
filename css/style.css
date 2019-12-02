@@ -110,7 +110,7 @@ img.img_name_bike {
 }
 img.img_bike {
   width: 15em;
-  padding-bottom: 15px;
+  padding-bottom: 40px;
   padding-top: 20px;
 }
 
@@ -200,5 +200,6 @@ img.img_bike {
   }
   .col-lg-6:last-child {
     padding-left: 0px;
+    padding-top: 30px;
   }
 }
