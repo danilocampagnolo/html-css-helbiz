@@ -110,6 +110,8 @@ img.img_name_bike {
 }
 img.img_bike {
   width: 15em;
+  padding-bottom: 50px;
+  margin-top: 20px;
 }
 
 #bike .col-lg-6 {
@@ -121,15 +123,23 @@ img.img_bike {
 #bike .col-lg-6:last-child{
   margin-left: 15px;
 }
-
-#bike p,
-#bike a {
+#bike p{
   font-size: 1.6em;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-#bike a {
-
+#bike .button a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #0070C7;
+}
+#bike .button a:hover {
+  text-decoration: underline;
+}
+#bike .angle_right {
+  margin-left: 5px;
+  font-size: 1.5em;
+  color: #0070C7;
 }
 
   /* /bike */
