@@ -12,8 +12,6 @@ body {
 
 .back_grey {
   background-color: #FAFAFA;
-  height: 100%;
-  width: calc(100% - 30px);
 }
 
 .text_center {
@@ -139,7 +137,15 @@ img.img_bike {
 #bike .angle_right i {
   vertical-align: middle;
 }
+
+.col-lg-6:first-child {
+  padding-right: 20px;
+}
+.col-lg-6:last-child {
+  padding-left: 20px;
+}
   /* /bike */
+
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
@@ -188,10 +194,11 @@ img.img_bike {
   .jumbo_text a img {
     width: 100%;
   }
-  
-  .back_grey {
-    width: 100%;
-    margin-bottom: 20px;
-  }
 
+  .col-lg-6:first-child {
+    padding-right: 0px;
+  }
+  .col-lg-6:last-child {
+    padding-left: 0px;
+  }
 }
