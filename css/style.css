@@ -12,6 +12,8 @@ body {
 
 .back_grey {
   background-color: #FAFAFA;
+  height: 100%;
+  width: calc(100% - 30px);
 }
 
 .text_center {
@@ -114,27 +116,18 @@ img.img_bike {
   padding-top: 20px;
 }
 
-#bike .col-lg-6 {
-  width: calc(50% - 15px);
-}
-#bike .col-lg-6:first-child{
-  margin-right: 15px;
-}
-#bike .col-lg-6:last-child{
-  margin-left: 15px;
-}
 #bike p{
   font-size: 2em;
   padding-top: 15px;
   padding-bottom: 10px;
 }
-#bike .button a {
+.button a {
   font-size: 1.9em;
   text-decoration: none;
   color: #0070C7;
   line-height: 20px;
 }
-#bike .button a:hover {
+.button a:hover {
   text-decoration: underline;
 }
 #bike .angle_right {
@@ -195,4 +188,5 @@ img.img_bike {
   .jumbo_text a img {
     width: 100%;
   }
+
 }
