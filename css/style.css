@@ -152,12 +152,10 @@ img.img_bike {
   vertical-align: middle;
 }
 
-.col-lg-6:first-child {
-  padding-right: 20px;
+.back_grey {
+  margin: 0 10px;
 }
-.col-lg-6:last-child {
-  padding-left: 20px;
-}
+
   /* /bike */
   /* iphone */
 .slider_top {
